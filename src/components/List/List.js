@@ -10,8 +10,8 @@ const List = () => {
       <p className={styles.description}>Interesting things I want to check out.</p>
       <section className={styles.columns}>
         <Column title="Books" icon="book" />
-        <Column title="Movies" icon="gamepad" />
-        <Column title="Games" icon="film" />
+        <Column title="Movies" icon="film" />
+        <Column title="Games" icon="gamepad" />
       </section>
     </div>
   );
