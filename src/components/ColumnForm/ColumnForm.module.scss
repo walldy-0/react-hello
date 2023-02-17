@@ -1,0 +1,14 @@
+@import '../../styles/settings.scss';
+
+.columnForm {
+  background-color: blue;
+  display: inline-block;
+
+  input {
+    margin: $base-size 0 0 $base-size;
+  }
+
+  span {
+    margin-left: $base-size;
+  }
+}
