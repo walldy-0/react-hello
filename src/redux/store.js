@@ -11,10 +11,12 @@ const reducer = (state, action) => {
 
     case 'ADD_CARD':
       return { ...state, cards: [...state.cards, { id: shortid(), ...action.payload }] };
-    
+
+    case 'CHANGE_FILTERCARDS':
+      return { ...state, filterCards: action.payload };
+
       default:
         return state;
-
   }
 };
 
