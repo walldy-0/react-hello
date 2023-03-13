@@ -1,0 +1,28 @@
+@import '../../styles/settings.scss';
+
+nav {
+  background: darken($color-dark, 3%);
+
+  .container {
+    max-width: $max-width-container;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+
+  .navLeft, .navRight {
+    margin: auto 0;
+
+    a {
+      color: $color-light;
+      font-weight: bold;
+      text-decoration: none;
+      padding-right: 12px;
+    }
+  }
+}

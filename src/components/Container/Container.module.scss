@@ -1,4 +1,6 @@
+@import '../../styles/global.scss';
+
 .container {
-  max-width: 1200px;
+  max-width: $max-width-container;
   margin: 20px auto;
 }
