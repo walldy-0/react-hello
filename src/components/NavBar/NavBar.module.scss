@@ -18,6 +18,10 @@ nav {
   .navLeft, .navRight {
     margin: auto 0;
 
+    .linkActive {
+      color: $color-warning;
+    }
+
     a {
       color: $color-light;
       font-weight: bold;
