@@ -20,5 +20,13 @@
     .active {
         color: $color-warning;
     }
+
+    .trash {
+        margin-left: 12px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
 
