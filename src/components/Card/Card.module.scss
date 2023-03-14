@@ -10,4 +10,15 @@
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+
+    .favorite {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .active {
+        color: $color-warning;
+    }
 }
+
