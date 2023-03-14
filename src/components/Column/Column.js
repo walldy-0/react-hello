@@ -1,7 +1,7 @@
 import styles from './Column.module.scss';
 import CardForm from '../CardForm/CardForm';
 import { useSelector } from 'react-redux';
-import { getFilteredCards } from '../../redux/store';
+import { getFilteredCards } from '../../redux/cardsReducer';
 import Cards from '../Cards/Cards';
 
 const Column = props => {
