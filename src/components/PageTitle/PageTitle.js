@@ -1,5 +1,3 @@
-import styles from './PageTitle.module.scss';
-
 const PageTitle = props => {
 
   return (

@@ -1,5 +1,3 @@
-import shortid from "shortid";
-
 //selectors
 export const getSearchString = state => state.searchString;
 
